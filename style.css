@@ -1,0 +1,194 @@
+.container {
+    display: flex;
+    height: 50px;
+    background-color: #000563;
+    color: white;
+    font-size: 14px;
+}
+
+.midden {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.midden img {
+    padding-left: 12px;
+    padding-right: 5px;
+}
+
+.logo img {
+    margin-right: auto;
+    width: 80px;
+    padding-left: 20px;
+    padding-right: 55px;
+    padding-top: 7px;
+    display: flex;
+
+}
+
+.rechts {
+
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+img {
+    width: 30px;
+    flex-direction: row;
+}
+
+.iets {
+    margin-left: 200px;
+    font-size: x-large;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background-color: #8cd1ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.progress-fill {
+    display: flex;
+    height: 100%;
+    width: 3%;
+    background-color: #2597A5;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.credits {
+    padding-left: 40px;
+}
+
+.profiel img {
+    border-radius: 360px;
+    aspect-ratio: 1/1;
+    margin-left: 20px;
+}
+
+.rondje {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+table {
+    display: flex;
+    margin-left: 200px;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding-right: 80px;
+    padding-top: 30px;
+    background-color: #fefefe;
+    padding: 20px;
+}
+
+tr,
+td {
+    border-bottom: 1px solid #000000;
+}
+
+.groene-knop {
+    background-color: rgb(95, 176, 95);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.groene-knop:hover {
+    background-color: rgb(95, 176, 95);
+}
+
+.feedback {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(95, 176, 95);
+    margin-left: 10px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.content-main {
+    display: flex;
+    width: 100%;
+    filter: drop-shadow(0px 0px 1px rgb(192, 192, 192));
+    justify-content: center;
+}
+
+.bloemen {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 15%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+    background-color: #fefefe;
+    margin-top: 60px;
+    filter: drop-shadow(0px 0px 1px rgb(192, 192, 192));
+
+
+}
+
+.bloemen img {
+    display: flex;
+    width: 268px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloem {
+    padding-top: 20px;
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.groter {
+
+    padding: 20px;
+    font-size: 23px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.getal {
+    margin-left: 50px;
+}
